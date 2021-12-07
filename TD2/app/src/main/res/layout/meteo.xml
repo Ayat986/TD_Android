@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <DatePicker
+        android:layout_width="195dp"
+        android:layout_height="393dp">
+
+    </DatePicker>
+
+    <TimePicker
+        android:layout_width="212dp"
+        android:layout_height="match_parent"></TimePicker>
+
+</LinearLayout>
+
+
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Temperature °C "
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"/>
+    <EditText
+        android:id="@+id/text2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Vitesse du vent "
+        android:layout_marginLeft="40dp"/>
+    <EditText
+        android:id="@+id/text3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="étatdu ciel "
+        android:layout_marginLeft="40dp"/>
+
+
+
+
+</LinearLayout>

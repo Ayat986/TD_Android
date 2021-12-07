@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@android:dimen/app_icon_size"
+
+   >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="159dp"
+            android:src="@drawable/food"/>
+
+
+
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Entrée">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/text2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Plat principal">
+
+    </EditText>
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="@android:dimen/app_icon_size">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/checkBox_checkFromage"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:text="Fromage" />
+
+    <CheckBox
+        android:id="@+id/checkBox_checkFruit"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:text="Fruit" />
+
+</LinearLayout>
+
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/radio_pirates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Midi"
+           />
+        <RadioButton android:id="@+id/radio_ninjas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Soir"
+            />
+    </RadioGroup>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@android:dimen/app_icon_size"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:text="Valider" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Annuler" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+
+    <RelativeLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginEnd="329dp"
+            android:textColor="@color/black"
+            android:text="Nom:"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textSize="25dp"
+            />
+
+        <TextView
+            android:id="@+id/Name1"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/black"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="212dp" />
+    </RelativeLayout>
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:background="@drawable/style"
+        android:text="Au vu du développement intense de l'épidémie de covid ces derniers temps, le gouvernement a souhaité réagir. Le Premier ministre, Jean Castex, accompagné du ministre de la Santé Olivier Véran, a annoncé ce 6 décembre 2021 un certain nombre de mesures destinées à freiner la circulation du variant delta. Certaines d'entre elles concernent la sphère professionnelle, comme un effort à effectuer en matière de télétravail."
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="100dp"
+        android:paddingLeft="20dp"/>
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:hint="Ok"
+        android:textColor="#FFF"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:backgroundTint="#ece1c1"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>
