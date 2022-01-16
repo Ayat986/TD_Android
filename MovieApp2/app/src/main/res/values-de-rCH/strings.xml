@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">" Filmanwendung"</string>
+    <string name="select">Wähle eine Sprache</string>
+    <string name="chercher_un_film">Film suchen</string>
+    <string name="nom_film">" Filmname..."</string>
+</resources>

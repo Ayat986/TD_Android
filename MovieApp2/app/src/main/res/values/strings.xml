@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Movie Application</string>
+
+    <string-array name="languages">
+        <item>Anglais</item>
+        <item>Français</item>
+        <item>Allemand</item>
+    </string-array>
+
+    <string name="select">Selectionner une langue</string>
+    <string name="chercher_un_film">Chercher un film :</string>
+    <string name="nom_film">Nom du film...</string>
+</resources>
